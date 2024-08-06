@@ -1,0 +1,6 @@
+@EventDrivenOrderProcessor.SagaChoreography.Payment.Api_HostAddress = http://localhost:5183
+
+GET {{EventDrivenOrderProcessor.SagaChoreography.Payment.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

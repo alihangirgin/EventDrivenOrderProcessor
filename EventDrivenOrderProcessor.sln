@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Order.Api", "EventDrivenOrderProcessor.SagaChoreography.Order.Api\EventDrivenOrderProcessor.SagaChoreography.Order.Api.csproj", "{D65040D4-9143-4763-AEE9-4EADFECEA959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Stock.Api", "EventDrivenOrderProcessor.SagaChoreography.Stock.Api\EventDrivenOrderProcessor.SagaChoreography.Stock.Api.csproj", "{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Payment.Api", "EventDrivenOrderProcessor.SagaChoreography.Payment.Api\EventDrivenOrderProcessor.SagaChoreography.Payment.Api.csproj", "{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Shared", "EventDrivenOrderProcessor.SagaChoreography.Shared\EventDrivenOrderProcessor.SagaChoreography.Shared.csproj", "{79C84F1B-D162-48A7-925D-7D744B13D9AA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65040D4-9143-4763-AEE9-4EADFECEA959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65040D4-9143-4763-AEE9-4EADFECEA959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65040D4-9143-4763-AEE9-4EADFECEA959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65040D4-9143-4763-AEE9-4EADFECEA959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
