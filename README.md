@@ -109,8 +109,7 @@ MassTransit'teki During, When, ve TransitionTo yapıları ile, State Machine iç
 
 Mevcut senaryoda **OrderStateMachine**'in içerdiği sipariş sürecindeki olayları, durumları ve bu durumlar arasındaki geçişler aşağıda görülebilir;
 
-![image](https://github.com/user-attachments/assets/fd59e01d-cfe7-49d9-bd2e-d2b1074802ed)
-
+![image](https://github.com/user-attachments/assets/ab173e22-4745-46cc-a10a-728d9042c228)
 
 **Durumlar (States)**
 
