@@ -1,5 +1,5 @@
 using EventDrivenOrderProcessor.SagaChoreography.Payment.Api.Consumer;
-using EventDrivenOrderProcessor.SagaChoreography.Shared;
+using EventDrivenOrderProcessor.Shared.Constants;
 using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);

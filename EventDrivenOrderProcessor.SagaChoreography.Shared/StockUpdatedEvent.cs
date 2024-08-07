@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EventDrivenOrderProcessor.Shared;
 
-namespace EventDrivenOrderProcessor.SagaChoreography.Shared
+namespace EventDrivenOrderProcessor.Shared
 {
     public class StockUpdatedEvent
     {

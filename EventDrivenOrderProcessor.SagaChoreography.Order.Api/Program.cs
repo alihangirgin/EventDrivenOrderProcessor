@@ -1,6 +1,6 @@
 using EventDrivenOrderProcessor.SagaChoreography.Order.Api;
 using EventDrivenOrderProcessor.SagaChoreography.Order.Api.Consumers;
-using EventDrivenOrderProcessor.SagaChoreography.Shared;
+using EventDrivenOrderProcessor.Shared.Constants;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;

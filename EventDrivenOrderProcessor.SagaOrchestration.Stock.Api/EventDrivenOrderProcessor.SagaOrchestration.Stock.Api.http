@@ -1,0 +1,6 @@
+@EventDrivenOrderProcessor.SagaOrchestration.Stock.Api_HostAddress = http://localhost:5049
+
+GET {{EventDrivenOrderProcessor.SagaOrchestration.Stock.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

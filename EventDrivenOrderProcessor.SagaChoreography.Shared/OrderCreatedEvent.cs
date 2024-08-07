@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventDrivenOrderProcessor.SagaChoreography.Shared
+
+namespace EventDrivenOrderProcessor.Shared
 {
     public class OrderCreatedEvent
     {

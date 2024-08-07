@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using static MassTransit.SqlEndpointAddress;
 
 namespace EventDrivenOrderProcessor.SagaChoreography.Order.Api.Model
 {

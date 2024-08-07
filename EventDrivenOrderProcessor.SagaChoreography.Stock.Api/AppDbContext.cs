@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace EventDrivenOrderProcessor.SagaChoreography.Order.Api
+namespace EventDrivenOrderProcessor.SagaChoreography.Stock.Api
 {
     public class AppDbContext : DbContext
     {

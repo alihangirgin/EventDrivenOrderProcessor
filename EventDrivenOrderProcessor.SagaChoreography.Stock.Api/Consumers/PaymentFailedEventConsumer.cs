@@ -1,5 +1,4 @@
-﻿using EventDrivenOrderProcessor.SagaChoreography.Order.Api;
-using EventDrivenOrderProcessor.SagaChoreography.Shared;
+﻿using EventDrivenOrderProcessor.Shared;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 

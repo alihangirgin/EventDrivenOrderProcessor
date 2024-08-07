@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventDrivenOrderProcessor.SagaChoreography.Shared
+namespace EventDrivenOrderProcessor.Shared.Constants
 {
     public static class RabbitMqConstants
     {
@@ -16,6 +16,8 @@ namespace EventDrivenOrderProcessor.SagaChoreography.Shared
 
         public const string StockOrderCreatedEventQueueName = "stock-order-created-queue";
         public const string StockPaymentFailedEventQueueName = "stock-payment-failed-queue";
+
+        public const string OrderQueue = "order-queue";
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using EventDrivenOrderProcessor.SagaChoreography.Shared;
+﻿using EventDrivenOrderProcessor.Shared;
+using EventDrivenOrderProcessor.Shared.Constants;
 using MassTransit;
 
 namespace EventDrivenOrderProcessor.SagaChoreography.Payment.Api.Consumer

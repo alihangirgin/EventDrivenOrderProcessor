@@ -1,9 +1,8 @@
-using EventDrivenOrderProcessor.SagaChoreography.Order.Api;
-using EventDrivenOrderProcessor.SagaChoreography.Shared;
+using EventDrivenOrderProcessor.SagaChoreography.Stock.Api;
 using EventDrivenOrderProcessor.SagaChoreography.Stock.Api.Consumers;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
+using EventDrivenOrderProcessor.Shared.Constants;
 
 var builder = WebApplication.CreateBuilder(args);
 

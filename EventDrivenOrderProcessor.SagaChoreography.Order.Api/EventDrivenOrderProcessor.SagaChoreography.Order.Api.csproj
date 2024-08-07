@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EventDrivenOrderProcessor.SagaChoreography.Shared\EventDrivenOrderProcessor.SagaChoreography.Shared.csproj" />
+    <ProjectReference Include="..\EventDrivenOrderProcessor.SagaChoreography.Shared\EventDrivenOrderProcessor.Shared.csproj" />
   </ItemGroup>
 
 </Project>

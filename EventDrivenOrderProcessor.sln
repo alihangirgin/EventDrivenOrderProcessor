@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Order.Api", "EventDrivenOrderProcessor.SagaChoreography.Order.Api\EventDrivenOrderProcessor.SagaChoreography.Order.Api.csproj", "{D65040D4-9143-4763-AEE9-4EADFECEA959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDrivenOrderProcessor.SagaChoreography.Order.Api", "EventDrivenOrderProcessor.SagaChoreography.Order.Api\EventDrivenOrderProcessor.SagaChoreography.Order.Api.csproj", "{D65040D4-9143-4763-AEE9-4EADFECEA959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Stock.Api", "EventDrivenOrderProcessor.SagaChoreography.Stock.Api\EventDrivenOrderProcessor.SagaChoreography.Stock.Api.csproj", "{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDrivenOrderProcessor.SagaChoreography.Stock.Api", "EventDrivenOrderProcessor.SagaChoreography.Stock.Api\EventDrivenOrderProcessor.SagaChoreography.Stock.Api.csproj", "{C3BD4978-1C05-44D1-9B55-57C5EA8FFF8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Payment.Api", "EventDrivenOrderProcessor.SagaChoreography.Payment.Api\EventDrivenOrderProcessor.SagaChoreography.Payment.Api.csproj", "{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDrivenOrderProcessor.SagaChoreography.Payment.Api", "EventDrivenOrderProcessor.SagaChoreography.Payment.Api\EventDrivenOrderProcessor.SagaChoreography.Payment.Api.csproj", "{AD676C3F-6EA8-43BE-AC84-090AE44E4FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaChoreography.Shared", "EventDrivenOrderProcessor.SagaChoreography.Shared\EventDrivenOrderProcessor.SagaChoreography.Shared.csproj", "{79C84F1B-D162-48A7-925D-7D744B13D9AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDrivenOrderProcessor.Shared", "EventDrivenOrderProcessor.SagaChoreography.Shared\EventDrivenOrderProcessor.Shared.csproj", "{79C84F1B-D162-48A7-925D-7D744B13D9AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaOrchestration.Order.Api", "EventDrivenOrderProcessor.SagaOrchestration.Order.Api\EventDrivenOrderProcessor.SagaOrchestration.Order.Api.csproj", "{2ADCB280-3D28-4A5D-894B-FD3D96821967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaOrchestration.Payment.Api", "EventDrivenOrderProcessor.SagaOrchestration.Payment.Api\EventDrivenOrderProcessor.SagaOrchestration.Payment.Api.csproj", "{FA11B081-261C-4668-8944-EB2A31B7ACAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaOrchestration.Stock.Api", "EventDrivenOrderProcessor.SagaOrchestration.Stock.Api\EventDrivenOrderProcessor.SagaOrchestration.Stock.Api.csproj", "{1760547C-0195-4C94-BBEA-842209B07486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDrivenOrderProcessor.SagaOrchestration.WorkerService", "EventDrivenOrderProcessor.SagaOrchestration.WorkerService\EventDrivenOrderProcessor.SagaOrchestration.WorkerService.csproj", "{2F779426-0A8C-4AE5-9B4D-98E80610D28F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C84F1B-D162-48A7-925D-7D744B13D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADCB280-3D28-4A5D-894B-FD3D96821967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADCB280-3D28-4A5D-894B-FD3D96821967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADCB280-3D28-4A5D-894B-FD3D96821967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADCB280-3D28-4A5D-894B-FD3D96821967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA11B081-261C-4668-8944-EB2A31B7ACAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA11B081-261C-4668-8944-EB2A31B7ACAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA11B081-261C-4668-8944-EB2A31B7ACAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA11B081-261C-4668-8944-EB2A31B7ACAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1760547C-0195-4C94-BBEA-842209B07486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1760547C-0195-4C94-BBEA-842209B07486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1760547C-0195-4C94-BBEA-842209B07486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1760547C-0195-4C94-BBEA-842209B07486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F779426-0A8C-4AE5-9B4D-98E80610D28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F779426-0A8C-4AE5-9B4D-98E80610D28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F779426-0A8C-4AE5-9B4D-98E80610D28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F779426-0A8C-4AE5-9B4D-98E80610D28F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using EventDrivenOrderProcessor.SagaChoreography.Order.Api.Model;
-using EventDrivenOrderProcessor.SagaChoreography.Shared;
+using EventDrivenOrderProcessor.Shared;
 
 namespace EventDrivenOrderProcessor.SagaChoreography.Order.Api
 {

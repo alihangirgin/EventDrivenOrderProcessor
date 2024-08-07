@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventDrivenOrderProcessor.SagaChoreography.Order.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240806015625_OrderDb")]
+    [Migration("20240806152106_OrderDb")]
     partial class OrderDb
     {
         /// <inheritdoc />
