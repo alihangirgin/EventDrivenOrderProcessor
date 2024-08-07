@@ -78,7 +78,8 @@ Consumer class MassTransit IConsumer interface'i üzerinden implemente edilerek 
 
 Belirli bir microservisteki belirli bir hedefe mesaj göndermek için MassTransit Send metodu, bir mesajı birden fazla mikro hizmete dağıtmak MassTransit Publish metodu için kullanılır.
 
-![image](https://github.com/user-attachments/assets/dfd853ff-ea02-4c43-9048-dd1cb0430505)
+![image](https://github.com/user-attachments/assets/6b99d507-6ab0-42a1-90ae-8a2212b2a2dd)
+
 ![image](https://github.com/user-attachments/assets/f9ad8258-886d-49e0-bdf2-be95cec63644)
 
 
